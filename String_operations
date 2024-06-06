@@ -1,6 +1,6 @@
 public class StringOperations {
     public static void main(String[] args) {
-        String str = "Hello, World!";
+        String str = "Rail World";
 
         // Length
         System.out.println("Length: " + str.length());
@@ -9,16 +9,16 @@ public class StringOperations {
         System.out.println("Character at index 1: " + str.charAt(1));
 
         // Substring
-        System.out.println("Substring (7, 12): " + str.substring(7, 12));
+        System.out.println("Substring (5, 10): " + str.substring(5, 10));
 
         // Concatenation
-        System.out.println("Concatenated string: " + str.concat(" How are you?"));
+        System.out.println("Concatenated string: " + str.concat(" Enjoying company ?"));
 
         // Replace
         System.out.println("Replace 'World' with 'Java': " + str.replace("World", "Java"));
 
         // Split
-        String[] parts = str.split(", ");
+        String[] parts = str.split(" ");
         System.out.println("First part: " + parts[0]);
         System.out.println("Second part: " + parts[1]);
 
