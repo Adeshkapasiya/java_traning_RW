@@ -1,0 +1,29 @@
+public class StringOperations {
+    public static void main(String[] args) {
+        String str = "Hello, World!";
+
+        // Length
+        System.out.println("Length: " + str.length());
+
+        // Character extraction
+        System.out.println("Character at index 1: " + str.charAt(1));
+
+        // Substring
+        System.out.println("Substring (7, 12): " + str.substring(7, 12));
+
+        // Concatenation
+        System.out.println("Concatenated string: " + str.concat(" How are you?"));
+
+        // Replace
+        System.out.println("Replace 'World' with 'Java': " + str.replace("World", "Java"));
+
+        // Split
+        String[] parts = str.split(", ");
+        System.out.println("First part: " + parts[0]);
+        System.out.println("Second part: " + parts[1]);
+
+        // Case conversion
+        System.out.println("Uppercase: " + str.toUpperCase());
+        System.out.println("Lowercase: " + str.toLowerCase());
+    }
+}
